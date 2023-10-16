@@ -61,13 +61,8 @@ const LeftSection = ({ show: propShow = false }) => {
               >
                 <ToggleDrawerIcon />
               </a>
-              {/* <a className={`${!show && "hidden"} flex px-3 min-h-[44px] py-1 gap-3 transition-colors duration-200 dark:text-white cursor-pointer text-sm rounded-md border dark:border-white/20 hover:bg-gray-500/10 h-11 w-11 flex-shrink-0 items-center justify-center bg-gray-200 dark:bg-transparent`}
-                onClick={()=> setShow(pastShow=> !pastShow)}
-              >
-                <ToggleDrawerIcon />
-              </a>   */}
             </div>
-            <div className="flex-col flex-1 overflow-y-auto border-b border-white/20">
+            <div className="flex-col flex-1 h-full overflow-y-auto border-b border-white/20">
               <div className="flex flex-col gap-2 text-gray-100 text-sm">
                 {previousChats.map((previousChat) => (
                   <PreviousChat

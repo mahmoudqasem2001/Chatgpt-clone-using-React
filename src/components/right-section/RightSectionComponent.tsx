@@ -64,13 +64,13 @@ const RightSection = () => {
     <div className=" relative flex h-full flex-col  md:pl-64 mb-32">
       <main className="relative h-full w-full transition-width flex flex-col overflow-hidden items-stretch flex-1 ">
         <div className="flex-1 overflow-hidden">
-          <div className=" flex flex-col items-center text-sm h-full md:h-screen bg-lightBlack overflow-y-auto">
+          <div className=" flex flex-col items-center text-sm h-full md:h-screen overflow-y-auto bg-lightBlack  mt-12 md:m-0">
             <ChatGptVersionSelector />
             <div className="text-gray-800 w-full justify-between md:max-w-2xl lg:max-w-full md:h-full md:flex md:flex-col ">
               <h1 className="text-4xl text-gray-300 font-semibold text-center mt-6 sm:mt-[10vh] ml-auto mr-auto mb-10 sm:mb-16">
                 ChatGPT
               </h1>
-              <div className="w-full h-full flex flex-col gap-3.5 md:max-w-2xl lg:max-w-full md:h-full md:flex md:flex-col ">
+              <div className="w-full h-full   flex flex-col gap-3.5 md:max-w-2xl lg:max-w-full md:h-full md:flex md:flex-col ">
                 <div className="md:flex items-start text-center gap-3.5 flex-col">
                   {messages.map((message, index) => (
                     <Message
