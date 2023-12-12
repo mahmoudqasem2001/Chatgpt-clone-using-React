@@ -1,8 +1,7 @@
 
 # ChatGPT Clone
 
-![Project Demo]((https://html-css-responsive-page-scen.vercel.app/))
-
+![Project Demo](https://html-css-responsive-page-scen.vercel.app/) 
 ## Overview
 
 This project is a clone of ChatGPT, built using React and TypeScript.
