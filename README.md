@@ -1,7 +1,7 @@
 
 # ChatGPT Clone
 
-![Project Demo]([link-to-your-demo-video.gif](https://html-css-responsive-page-scen.vercel.app/))
+![Project Demo]((https://html-css-responsive-page-scen.vercel.app/))
 
 ## Overview
 
